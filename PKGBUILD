@@ -14,8 +14,8 @@ optdepends=('nvidia-utils: only for nVidia users' 'libc++: only for BlackMagic R
 provides=('lightworks')
 conflicts=('lwks-beta' 'lightworks')
 replaces=('lwks')
-# source=("https://cdn.lwks.com/releases/$lwksreldir/lightworks_${lwksver}_r${lwksbuild}.deb")
-source=("./lightworks_2022.3_r138939.deb")
+source=("https://cdn.lwks.com/releases/$lwksreldir/lightworks_${lwksver}_r${lwksbuild}.deb")
+#source=("./lightworks_2022.3_r138939.deb")
 
 sha512sums=('f065de6732bd01730ae1e290db19d3ab46e3402286992294ebe68fa61387e20a328910f6c034085aa36c3c6b0be0101eaa7c202f64ce35fcb597806e0c196371')
 
